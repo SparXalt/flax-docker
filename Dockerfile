@@ -13,7 +13,7 @@ ENV farmer_address="null"
 ENV farmer_port="null"
 ENV testnet="false"
 ENV TZ="UTC"
-ENV FLAX_CHECKOUT="fa28cc2a12308236706ac122fb6cd98634b840be"
+ENV FLAX_CHECKOUT="021639e13b72ecdb8ab602d8d45ba6ae630cf297"
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y bc curl lsb-release python3 tar bash ca-certificates git openssl unzip wget python3-pip sudo acl build-essential python3-dev python3.8-venv python3.8-distutils python-is-python3 vim tzdata && \
     rm -rf /var/lib/apt/lists/* && \
